@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Twemoji from xem.github.io";
+  src: url("https://xem.github.io/unicode13/Twemoji.ttf") format("truetype");
+  unicode-range: U+00A9-E007F;
+}
+
+.emoji-font {
+  /* For Emoji, popular browser like Edge, Brave, etc doesn't support emoji */
+  font-family: "Twemoji from xem.github.io", Segoe UI Emoji, Segoe UI Symbol,
+    Segoe, sans-serif;
+}
