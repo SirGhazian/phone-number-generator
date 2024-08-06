@@ -108,7 +108,7 @@ export default function MainGenerator() {
   return (
     <>
       <div className="sm:w-full md:w-[40rem]">
-        <div className="py-9 sm:px-8 md:px-24 mx-4 rounded-xl flex flex-col items-center justify-center bg-base-200 border-b-2 border-secondary">
+        <div className="py-9 sm:px-5 md:px-24 mx-4 rounded-xl flex flex-col items-center justify-center bg-base-200 border-b-2 border-secondary">
           <div className="w-10 h-auto m-2">
             <HeaderLogo />
           </div>
@@ -116,21 +116,22 @@ export default function MainGenerator() {
           <p className="mb-6 font-semibold text-secondary">Phone Number Generator</p>
 
           {/* ----- SECTION TEXT AREA ----- */}
-          <div className="flex flex-row justify-between w-full h-auto mb-12">
+          <div className="flex sm:flex-col md:flex-row justify-between w-full h-auto mb-12">
             <textarea
-              className="textarea textarea-secondary h-40 w-full mr-3"
+              className="textarea textarea-secondary sm:h-24 md:h-40 w-full mr-3"
               placeholder="Phone Number List Goes Here"
               value={content}
               readOnly
             ></textarea>
+
             {/* --- BUTTON COPY --- */}
             <button
               // If no password, disable copy
-              // disabled={!password ? true : false}
               onClick={() => copyText()}
-              className={`btn mr-2 btn-secondary ${isCopied ? "btn-outline" : ""}`}
+              className={`btn sm:mt-2 md:mt-0 btn-secondary ${isCopied ? "btn-outline" : ""}`}
             >
-              <i className="fa-solid fa-copy"></i>
+              <i className="fa-solid fa-copy" />
+              <div className="mr-1 md:hidden">Copy</div>
             </button>
             {/* --- BUTTON COPY --- */}
           </div>
@@ -138,12 +139,16 @@ export default function MainGenerator() {
 
           {/* ---- SECTION SELECT ---- */}
           <div className="flex flex-row justify-between mb-4">
-            <select className="select select-secondary w-2/4 max-w-xs emoji-font">
-              <option onClick={() => changeCountry("ID")}>🇮🇩 ID / +62</option>
-              <option onClick={() => changeCountry("US")}>🇺🇸 US / +1</option>
-              <option onClick={() => changeCountry("CN")}>🇨🇳 CN / +91</option>
-              <option onClick={() => changeCountry("IN")}>🇮🇳 IN / +86</option>
-              <option onClick={() => changeCountry("MY")}>🇲🇾 MY / +60</option>
+            <select
+              className="select select-secondary w-2/4 max-w-xs emoji-font"
+              value={countrySelect}
+              onChange={(e) => changeCountry(e.target.value as keyof typeof countryCode)}
+            >
+              <option value="ID">🇮🇩 ID / +62</option>
+              <option value="US">🇺🇸 US / +1</option>
+              <option value="CN">🇨🇳 CN / +86</option>
+              <option value="IN">🇮🇳 IN / +91</option>
+              <option value="MY">🇲🇾 MY / +60</option>
             </select>
 
             <div className="flex flex-row items-center w-2/4">
