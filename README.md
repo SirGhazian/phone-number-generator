@@ -10,9 +10,14 @@
 <p/>
 
 
+
 A React-based phone number generator that allows you to create random phone numbers based on selected country codes. You can customize the generated numbers with or without the plus symbol, country prefix, and comma-separated format.
 
-</br>
+Live Demo: https://generator-phone-number.vercel.app/
+
+<img src="https://github.com/user-attachments/assets/542bcdbd-290f-45f6-8ba5-409b009f3e36" width="550"/>
+
+</br></br>
 
 ## 🚀【 Features 】
 
@@ -28,13 +33,13 @@ A React-based phone number generator that allows you to create random phone numb
 
 ## 🌍【 Available Countries 】
 
-| Country      | Code | Suffix Operator Codes        |
-|--------------|------|------------------------------|
-| 🇮🇩 Indonesia | ID   | +62, 081, 082, 085, 088      |
-| 🇺🇸 USA       | US   | +1, 201, 202, 203, 205, ...  |
-| 🇨🇳 China     | CN   | +86, 130, 131, 132, 133, ... |
-| 🇮🇳 India     | IN   | +91, 700, 701, 702, 703, ... |
-| 🇲🇾 Malaysia  | MY   | +60, 010, 011, 012, 013, ... |
+| Country   | Code | Prefix | Region/Operator Codes   |
+|-----------|------|--------|-------------------------|
+| Indonesia | ID   | +62    | 811, 821, 858, 832, ... |
+| USA       | US   | +1     | 201, 202, 203, 205, ... |
+| China     | CN   | +86    | 130, 131, 132, 133, ... |
+| India     | IN   | +91    | 93, 94, 73, 75, 81, ... |
+| Malaysia  | MY   | +60    | 10, 11, 12, 13, 19, ... |
 
 </br>
 
