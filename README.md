@@ -40,6 +40,8 @@ Live Demo: https://generator-phone-number.vercel.app/
 | China     | CN   | +86    | 130, 131, 132, 133, ... |
 | India     | IN   | +91    | 93, 94, 73, 75, 81, ... |
 | Malaysia  | MY   | +60    | 10, 11, 12, 13, 19, ... |
+| Brazil    | BR   | +55    | 11, 12, 13, 19, 99, ... |
+| Germany   | DE   | +49    | 150, 151, 152, 179, ... |
 
 </br>
 
