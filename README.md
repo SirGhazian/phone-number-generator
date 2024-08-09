@@ -81,11 +81,11 @@ To set up the project locally, follow these steps:
     │   ├── components/
     │   │   └── creditsFooter.tsx
     │   │   └── headerLogo.tsx
-    │   │   └── mainGenerator.tsx      # Main generator and all of the functions
+    │   │   └── mainGenerator.tsx       # Main generator and all of the functions
     │   │   └── themeController.tsx
     │   ├── data/
-    │   │   └── countryCode.ts         # Data file containing country codes and prefixes
-    │   ├── App.tsx                    # Main application component
+    │   │   └── countryCode.ts          # Data file containing country codes and prefixes
+    │   ├── App.tsx                     # Main application component
 
 </br>
 
