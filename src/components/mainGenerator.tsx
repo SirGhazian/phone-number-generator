@@ -146,6 +146,7 @@ export default function MainGenerator() {
             >
               <option value="ID">🇮🇩 ID / +62</option>
               <option value="US">🇺🇸 US / +1</option>
+              <option value="GB">🇬🇧 UK / +44</option>
               <option value="CN">🇨🇳 CN / +86</option>
               <option value="IN">🇮🇳 IN / +91</option>
               <option value="MY">🇲🇾 MY / +60</option>
