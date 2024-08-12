@@ -52,4 +52,10 @@ export const countryCode = {
     length: 11,
     suffix: ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
   },
+
+  JP: {
+    prefix: "81",
+    length: 11,
+    suffix: ["70", "80", "90"],
+  },
 };

@@ -9,8 +9,6 @@
 <img src="https://github.com/user-attachments/assets/d37a62f7-650a-4886-81c9-d3809d3ddeed" width="100%" height="2px"/>
 <p/>
 
-
-
 A React-based phone number generator that allows you to create random phone numbers based on selected country codes. You can customize the generated numbers with or without the plus symbol, country prefix, and comma-separated format.
 
 Live Demo: https://generator-phone-number.vercel.app/
@@ -34,14 +32,17 @@ Live Demo: https://generator-phone-number.vercel.app/
 ## 🌍【 Available Countries 】
 
 | Country   | Code | Prefix | Region/Operator Codes   |
-|-----------|------|--------|-------------------------|
+| --------- | ---- | ------ | ----------------------- |
 | Indonesia | ID   | +62    | 811, 821, 858, 832, ... |
 | USA       | US   | +1     | 201, 202, 203, 205, ... |
+| UK        | GB   | +44    | 7, ...                  |
 | China     | CN   | +86    | 130, 131, 132, 133, ... |
 | India     | IN   | +91    | 93, 94, 73, 75, 81, ... |
 | Malaysia  | MY   | +60    | 10, 11, 12, 13, 19, ... |
 | Brazil    | BR   | +55    | 11, 12, 13, 19, 99, ... |
 | Germany   | DE   | +49    | 150, 151, 152, 179, ... |
+| France    | FR   | +33    | 1, 2, 3, 4, 5, 6, 7 ... |
+| Japan     | JP   | +81    | 70, 80, 90, ...         |
 
 </br>
 
@@ -55,17 +56,24 @@ To set up the project locally, follow these steps:
    git clone https://github.com/SirGhazian/phone-number-generator.git
    cd phone-number-generator
 
+   ```
+
 2. Install dependencies:
+
    ```bash
    npm install
+
+   ```
 
 3. Start the development server:
    ```bash
    npm run dev
+   ```
 
 </br>
 
 ## 🖥️【 Usage 】
+
 1. Open the application in your browser.
 2. Select a country code from the dropdown menu.
 3. Set the total number of phone numbers to generate (up to 9999).
@@ -76,6 +84,7 @@ To set up the project locally, follow these steps:
 </br>
 
 ## 📂【 Project Structure 】
+
     .
     ├── src/
     │   ├── components/
@@ -90,4 +99,5 @@ To set up the project locally, follow these steps:
 </br>
 
 ## 🤝【 Contributing 】
+
 Contributions are welcome! Please fork this repository and submit a pull request for any feature additions, country code, bug fixes, or improvements.

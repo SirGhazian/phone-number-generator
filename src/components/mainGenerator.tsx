@@ -153,6 +153,7 @@ export default function MainGenerator() {
               <option value="BR">🇧🇷 BR / +55</option>
               <option value="DE">🇩🇪 DE / +49</option>
               <option value="FR">🇫🇷 FR / +33</option>
+              <option value="JP">🇯🇵 JP / +81</option>
             </select>
 
             <div className="flex flex-row items-center w-2/4">
