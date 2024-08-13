@@ -58,4 +58,10 @@ export const countryCode = {
     length: 11,
     suffix: ["70", "80", "90"],
   },
+ 
+  SG: {
+    prefix: "65",
+    length: 10,
+    suffix: [""],
+  },
 };
