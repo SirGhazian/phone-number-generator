@@ -31,19 +31,20 @@ Live Demo: https://generator-phone-number.vercel.app/
 
 ## 🌍【 Available Countries 】
 
-| Country   | Code | Prefix | Region/Operator Codes   |
-| --------- | ---- | ------ | ----------------------- |
-| Indonesia | ID   | +62    | 811, 821, 858, 832, ... |
-| USA       | US   | +1     | 201, 202, 203, 205, ... |
-| UK        | GB   | +44    | 7, ...                  |
-| China     | CN   | +86    | 130, 131, 132, 133, ... |
-| India     | IN   | +91    | 93, 94, 73, 75, 81, ... |
-| Malaysia  | MY   | +60    | 10, 11, 12, 13, 19, ... |
-| Brazil    | BR   | +55    | 11, 12, 13, 19, 99, ... |
-| Germany   | DE   | +49    | 150, 151, 152, 179, ... |
-| France    | FR   | +33    | 1, 2, 3, 4, 5, 6, 7 ... |
-| Japan     | JP   | +81    | 70, 80, 90, ...         |
-| Singapore | SG   | +65    | No code by default      |
+| Country     | Code | Prefix | Region/Operator Codes   |
+| ----------- | ---- | ------ | ----------------------- |
+| Indonesia   | ID   | +62    | 811, 821, 858, 832, ... |
+| USA         | US   | +1     | 201, 202, 203, 205, ... |
+| UK          | GB   | +44    | 7, ...                  |
+| China       | CN   | +86    | 130, 131, 132, 133, ... |
+| India       | IN   | +91    | 93, 94, 73, 75, 81, ... |
+| Malaysia    | MY   | +60    | 10, 11, 12, 13, 19, ... |
+| Brazil      | BR   | +55    | 11, 12, 13, 19, 99, ... |
+| Germany     | DE   | +49    | 150, 151, 152, 179, ... |
+| France      | FR   | +33    | 1, 2, 3, 4, 5, 6, 7 ... |
+| Japan       | JP   | +81    | 70, 80, 90, ...         |
+| Singapore   | SG   | +65    | No area code by default |
+| Philippines | PH   | +63    | 917, 918, 920, 930, ... |
 
 </br>
 
