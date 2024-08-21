@@ -43,7 +43,7 @@ Live Demo: https://generator-phone-number.vercel.app/
 | Germany     | DE   | +49    | 150, 151, 152, 179, ... |
 | France      | FR   | +33    | 1, 2, 3, 4, 5, 6, 7 ... |
 | Japan       | JP   | +81    | 70, 80, 90, ...         |
-| Singapore   | SG   | +65    | No area code by default |
+| Singapore   | SG   | +65    | No code by default      |
 | Philippines | PH   | +63    | 917, 918, 920, 930, ... |
 
 </br>
